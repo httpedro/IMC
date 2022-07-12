@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
 
-    <link rel="stylesheet" href="css/all.css">
-    <script src="javaScript/all.js"></script>
+        <link rel="stylesheet" href="css/all.css">
+        <script src="javaScript/imc.js"></script>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form>
-        <label for=""></label>
-        <input type="text" name="" id="">        
-    </form>
-</body>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IMC</title>
+    </head>
+    <body>
+        <!--
+            onsubmit pode retornar função e é importante passar evento
+            para dizer que vai acontecer algo na submissão
+            enão quando voce enviar para js ele apaga os campos automaticamente
+            apos o evento
+        -->
+        <h3>IMC</h3><br>
+        <form>
+            <label for="peso">Peso</label>
+            <input type="text" id="peso">
+            <label for="">Altura</label>
+            <input type="text" id="altura">
+            <br><br>
+            <button onclick="calcularIMC()">Calcular IMC</button>     
+        </form>
+    </body>
 </html>
