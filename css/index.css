@@ -1,0 +1,26 @@
+body{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+#titulo{
+    background-color: aqua;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 50%;
+}
+#formulario form{
+    background-color: blue;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-top: 0%;
+    color: white;
+}
